@@ -1,0 +1,31 @@
+# data (downloaded by the notebook, never committed)
+data/
+*.csv.gz
+*.jsonl.gz
+*.parquet
+*.npz
+*.npy
+*.pt
+
+# environments
+.venv/
+venv/
+env/
+.env
+
+# caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.cache/
+.optuna/
+*.db
+mlruns/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# scratch
+quick*.ipynb

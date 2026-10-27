@@ -1,0 +1,4 @@
+# local environment at the repository root
+.venv/
+__pycache__/
+.ipynb_checkpoints/
